@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512" fill="none">
+<title>红色圆角按钮背底板</title>
+<defs>
+ <linearGradient id="rim" x1="100" y1="8" x2="392" y2="498" gradientUnits="userSpaceOnUse"><stop stop-color="#ffc2a0"/><stop offset=".35" stop-color="#ff7353"/><stop offset="1" stop-color="#ce3326"/></linearGradient>
+ <linearGradient id="body" x1="256" y1="15" x2="256" y2="487" gradientUnits="userSpaceOnUse"><stop stop-color="#ff7353"/><stop offset=".5" stop-color="#ee4130"/><stop offset="1" stop-color="#ff6544"/></linearGradient>
+ <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(155 90) rotate(47) scale(454 400)" gradientUnits="userSpaceOnUse"><stop stop-color="#ffc2a0" stop-opacity=".3"/><stop offset=".65" stop-color="#ffc2a0" stop-opacity="0"/></radialGradient>
+ <radialGradient id="lower" cx="0" cy="0" r="1" gradientTransform="translate(266 478) rotate(-90) scale(142 280)" gradientUnits="userSpaceOnUse"><stop stop-color="#ffc2a0" stop-opacity=".22"/><stop offset="1" stop-color="#ffc2a0" stop-opacity="0"/></radialGradient>
+ <linearGradient id="edge" x1="256" y1="16" x2="256" y2="489" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity=".83"/><stop offset=".38" stop-color="#ffad8c" stop-opacity=".42"/><stop offset="1" stop-color="#ffc2a0" stop-opacity=".88"/></linearGradient>
+ <filter id="shadow" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#ce3326" flood-opacity=".2"/></filter>
+</defs>
+<g filter="url(#shadow)">
+ <rect x="10" y="14" width="492" height="488" rx="86" fill="#ce3326"/>
+ <rect x="10" y="8" width="492" height="488" rx="86" fill="url(#rim)"/>
+ <rect x="18" y="15" width="476" height="473" rx="78" fill="url(#body)"/>
+ <rect x="18" y="15" width="476" height="473" rx="78" fill="url(#glow)"/>
+ <rect x="18" y="15" width="476" height="473" rx="78" fill="url(#lower)"/>
+ <rect x="18" y="15" width="476" height="473" rx="78" stroke="url(#edge)" stroke-width="3"/>
+ <path d="M99 17H413" stroke="white" stroke-opacity=".32" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>
